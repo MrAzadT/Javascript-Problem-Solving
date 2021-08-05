@@ -25,7 +25,12 @@
 // var myNum = Math.abs(num);
 // console.log(myNum);
 
-// -----Math.ceil
-var num = 4.167;
-var myNum = Math.ceil(num);
+// // -----Math.ceil
+// var num = 4.167;
+// var myNum = Math.ceil(num);
+// console.log(myNum);
+
+// ----Math.floor
+var num = 4.999999;
+var myNum = Math.floor(num);
 console.log(myNum);
