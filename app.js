@@ -42,6 +42,8 @@
 
 // -----Math.random
 
-var output = Math.random() * 100;
-var output2 = Math.round(output);
-console.log(output2);
+for (i = 0; i < 30; i++) {
+  var output = Math.random() * 100;
+  var output2 = Math.round(output);
+  console.log(output2);
+}
