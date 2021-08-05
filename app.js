@@ -22,6 +22,11 @@
 
 //----- negative to positive
 
-var num = -455;
-var myNum = Math.abs(num);
+// var num = -455;
+// var myNum = Math.abs(num);
+// console.log(myNum);
+
+// -----Math.ceil
+var num = 4.167;
+var myNum = Math.ceil(num);
 console.log(myNum);
