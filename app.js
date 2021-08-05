@@ -30,7 +30,12 @@
 // var myNum = Math.ceil(num);
 // console.log(myNum);
 
-// ----Math.floor
-var num = 4.999999;
-var myNum = Math.floor(num);
+// // ----Math.floor
+// var num = 4.999999;
+// var myNum = Math.floor(num);
+// console.log(myNum);
+
+// -----Math.round
+var num = 4.500001;
+var myNum = Math.round(num);
 console.log(myNum);
