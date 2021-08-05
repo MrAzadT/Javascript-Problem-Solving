@@ -21,7 +21,6 @@
 // convertToF(30);
 
 //----- negative to positive
-
 // var num = -455;
 // var myNum = Math.abs(num);
 // console.log(myNum);
