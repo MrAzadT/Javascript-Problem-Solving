@@ -1,18 +1,18 @@
-// feetToMi
+// feetToMie
 
-// function feetToMil(feet) {
+// function feetToMile(feet) {
 //   var mail = feet / 5280;
 //   return mail;
 // }
-// var getMile = feetToMil(5280);
+// var getMile = feetToMile(5280);
 // console.log(getMile);
 
-// Celsius to Fahrenheit
-function CelsiusToFahrenheit(Celsius) {
-  var Fahrenheit = (Celsius * 9) / 5 + 32;
-  return Fahrenheit;
-}
-var getCelsius = CelsiusToFahrenheit(100);
+// // Celsius to Fahrenheit
+// function CelsiusToFahrenheit(Celsius) {
+//   var Fahrenheit = Celsius * (9 / 5) + 32;
+//   return Fahrenheit;
+// }
+// var getCelsius = CelsiusToFahrenheit(33);
 
 // function convertToF(celsius) {
 //   return (celsius * 9) / 5 + 32;
