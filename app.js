@@ -42,5 +42,6 @@
 
 // -----Math.random
 
-var output = Math.random() * 10;
-console.log(output);
+var output = Math.random() * 100;
+var output2 = Math.round(output);
+console.log(output2);
