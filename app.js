@@ -1,4 +1,4 @@
-// feetToMie
+//------ feetToMie
 
 // function feetToMile(feet) {
 //   var mail = feet / 5280;
@@ -7,7 +7,7 @@
 // var getMile = feetToMile(5280);
 // console.log(getMile);
 
-// // Celsius to Fahrenheit
+// //------ Celsius to Fahrenheit
 // function CelsiusToFahrenheit(Celsius) {
 //   var Fahrenheit = Celsius * (9 / 5) + 32;
 //   return Fahrenheit;
@@ -19,3 +19,9 @@
 // }
 
 // convertToF(30);
+
+//----- negative to positive
+
+var num = -455;
+var myNum = Math.abs(num);
+console.log(myNum);
