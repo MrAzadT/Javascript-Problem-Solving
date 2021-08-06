@@ -26,9 +26,18 @@
 // var total2 = MyTotal([2, 4, 5, 8, 18]);
 // console.log(total2);
 
-// ==== Fibonacci
-var fibo = [0, 1];
-for (let i = 2; i < 10; i++) {
-  fibo[i] = fibo[i - 1] + fibo[i - 2];
+// // ==== Fibonacci
+// var fibo = [0, 1];
+// for (let i = 2; i < 10; i++) {
+//   fibo[i] = fibo[i - 1] + fibo[i - 2];
+// }
+// console.log(fibo);
+
+function fibonacci() {
+  let fibo = [0, 1];
+  for (let i = 2; i < 20; i++) {
+    fibo[i] = fibo[i - 1] + fibo[i - 2];
+  }
+  return fibo;
 }
-console.log(fibo);
+console.log(fibonacci());
