@@ -40,10 +40,14 @@
 // var myNum = Math.round(num);
 // console.log(myNum);
 
-// -----Math.random
+// // -----Math.random
+// for (i = 0; i < 30; i++) {
+//   var output = Math.random() * 25;
+//   var output2 = Math.round(output);
+//   console.log(output2);
+// }
 
-for (i = 0; i < 30; i++) {
-  var output = Math.random() * 25;
-  var output2 = Math.round(output);
-  console.log(output2);
-}
+// ----swap variable
+var a = 8;
+var b = 9;
+console.log(a, b);
