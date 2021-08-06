@@ -48,13 +48,22 @@
 // }
 
 // ----swap variable
-var a = 8;
-var b = 9;
-console.log(a, b);
-// var c = a;
-// a = b;
-// b = c;
+// var a = 8;
+// var b = 9;
+// console.log(a, b);
+// // var c = a;
+// // a = b;
+// // b = c;
 
-//****destructing
-[a, b] = [b, a];
-console.log(a, b);
+// //**** destructing
+// [a, b] = [b, a];
+// console.log(a, b);
+
+// ==== Find max of to value
+var rafi = 25;
+var joni = 28;
+if (rafi > joni) {
+  console.log("rafi boro");
+} else {
+  console.log("joni boro");
+}
