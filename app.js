@@ -60,10 +60,14 @@
 // console.log(a, b);
 
 // ==== Find max of to value
-var rafi = 25;
-var joni = 28;
-if (rafi > joni) {
-  console.log("rafi boro");
-} else {
-  console.log("joni boro");
+// var rafi = 25;
+// var joni = 28;
+
+function keBoro(rafi, joni) {
+  if (rafi > joni) {
+    console.log("rafi boro");
+  } else {
+    console.log("joni boro");
+  }
 }
+console.log(keBoro(24, 71));
