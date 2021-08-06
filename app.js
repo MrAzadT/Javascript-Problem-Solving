@@ -76,3 +76,7 @@
 // // console.log(keBoro(24, 71, 88));
 // var result = Math.max(rafi, joni, saimum);
 // console.log(result);
+
+var num = -77;
+var ans = Math.abs(num);
+console.log(ans);
