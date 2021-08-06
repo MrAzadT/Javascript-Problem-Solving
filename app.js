@@ -50,7 +50,7 @@
 // ----swap variable
 var a = 8;
 var b = 9;
-
+console.log(a, b);
 var c = a;
 a = b;
 b = c;
