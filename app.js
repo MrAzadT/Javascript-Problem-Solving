@@ -7,13 +7,13 @@
 // var getMile = feetToMile(5280);
 // console.log(getMile);
 
-//------ Celsius to Fahrenheit
-function CelsiusToFahrenheit(Celsius) {
-  var Fahrenheit = (Celsius * 9) / 5 + 32;
-  return Fahrenheit;
-}
-var getCelsius = CelsiusToFahrenheit(0);
-console.log(getCelsius);
+// //------ Celsius to Fahrenheit
+// function CelsiusToFahrenheit(Celsius) {
+//   var Fahrenheit = (Celsius * 9) / 5 + 32;
+//   return Fahrenheit;
+// }
+// var getCelsius = CelsiusToFahrenheit(0);
+// console.log(getCelsius);
 
 // function convertToF(celsius) {
 //   return (celsius * 9) / 5 + 32;
@@ -64,11 +64,13 @@ console.log(getCelsius);
 // var rafi = 25;
 // var joni = 28;
 
-// function keBoro(rafi, joni, saimum) {
-//   if (rafi > joni %% rafi >saimum) {
-//     console.log("rafi boro");
-//   } else {
-//     console.log("joni boro");
-//   }
-// }
-// console.log(keBoro(24, 71));
+function keBoro(rafi, joni, saimum) {
+  if (rafi > joni && rafi > saimum) {
+    console.log("rafi boro");
+  } else if (joni > rafi && joni > saimum) {
+    console.log("joni boro");
+  } else {
+    console.log("saimum boro");
+  }
+}
+console.log(keBoro(24, 71, 88));
