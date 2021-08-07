@@ -25,5 +25,5 @@ function maxNum(num) {
 
   return min;
 }
-var nam = [12, 34, 556, 7, 8867];
+var nam = [12, 34, 556, 7, 8867, 67, 87888, 6];
 console.log(maxNum(nam));
