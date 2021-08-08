@@ -44,7 +44,8 @@
 // }
 
 let sam = 0;
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i <= 33; i++) {
   sam = sam + i;
 }
-console.log(sam);
+var total = sam;
+console.log(total);
