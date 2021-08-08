@@ -1,4 +1,4 @@
 var number = 12;
-var name = "azad";
+var myName = "azad";
 var honours = true;
-console.log(number, name, honours);
+console.log(number, myName, honours);
