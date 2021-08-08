@@ -29,12 +29,12 @@
 // console.log(minNum(nam));
 
 // =============
-var i = 5;
-if ((i = 5)) {
-  console.log("hiii");
-} else {
-  console.log("333333");
-}
+// var i = 5;
+// if ((i = 5)) {
+//   console.log("hiii");
+// } else {
+//   console.log("333333");
+// }
 
 // for (const iterator of object) {
 // }
@@ -42,3 +42,9 @@ if ((i = 5)) {
 // while (condition) {
 
 // }
+
+let sam = 0;
+for (let i = 0; i <= 3; i++) {
+  sam = sam + i;
+}
+console.log(sam);
